@@ -45,20 +45,19 @@ This is a practice project on building a responsive QR code component using HTML
 
 During this project I was able to learn more about styling with CSS and proper structuring with HTML.
 
-```html
 In the structuring I first had issues with knowing which component should have a div on it own and which component should be together in a div, but I figured it out finally which made it easier for me to style.
-
+```html
 <div class="para">
   <p class="p1">Improve your front-end skills by building projects</p>
   <p class="p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 </div>
 
-At first I seperated the above paragraph into different divs which gave me issues styling, but I figured I could still put them in same div and just give them a different class name.
+
 ```
+At first I seperated the above paragraph into different divs which gave me issues styling, but I figured I could still put them in same div and just give them a different class name.
 
-```css
 Well the css wasn't much of an issue the moment I properly structured the html. I got to learn how to style for different screen sizes making it responsive, at first I didn't the function to enter before styling for diiferent screens then I found out the below function to style screens. 
-
+```css
 @media screen and (max-width: 576px) {}
 ```
 
