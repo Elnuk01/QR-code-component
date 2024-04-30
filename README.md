@@ -27,8 +27,8 @@ This is a practice project on building a responsive QR code component using HTML
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (http://127.0.0.1:5500/index.html)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-and-css-I1Qe1lxBOX)
+- Live Site URL: (https://elnuk01.github.io/QR-code-component/)
 
 ## My process
 
