@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    p {
+      font-family: Outfit;
+      font-weight: 400, 700
+    }
+    
+    body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(217, 65%, 92%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 17px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  max-width: 300px; /* Adjust as needed */
+}
+
+.card img {
+  width: 90%;
+  display: block;
+  margin: 5%;
+  border-radius: 15px;
+}
+
+.para {
+  padding: 0px;
+  text-align: center;
+  margin: 10%;
+  margin-top: 10px;
+}
+
+.p1 {
+  font-size: 19px;
+  font-weight: bolder;
+  color: hsl(218, 44%, 22%);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.p2 {
+  font-size: 13px;
+  color: hsl(216, 3%, 61%);
+  line-height: 1.3;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  .card {
+    max-width: 100%;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+  }
+  .card img {
+    border-radius: 27px;
+  }
+  .p1 {
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+  .p2 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  .card {
+    max-width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+  }
+  .card img {
+    border-radius: 20px;
+  }
+  .p1 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+  .p2 {
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="images/image-qr-code.png" alt="QR Code">
+      <div class="para">
+      <p class="p1">Improve your front-end skills by building projects</p>
+      <p class="p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
